@@ -4,6 +4,7 @@ import { getAllPosts, getPostBySlug } from "@/lib/api";
 import { CMS_NAME } from "@/lib/constants";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Header from "@/app/_components/header";
+import { GiscusComments } from "@/app/_components/giscus";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 
@@ -29,6 +30,7 @@ export default async function Post({ params }: Params) {
         />
         <PostBody content={content} />
       </article>
+      <GiscusComments />
     </main>
   );
 }
