@@ -14,21 +14,11 @@ export function getPostBySlug(slug: string) {
   const fullPath = join(postsDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
-
-  return { ...data, category: data.category, slug: realSlug, content } as Post;
+  return { ...data, slug: realSlug, content } as Post;
 }
 
 export function getAllPosts(): Post[] {
-  const slugs = getPostSlugs();
-  const posts = slugs
+  return getPostSlugs()
     .map((slug) => getPostBySlug(slug))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
-  return posts;
-}
-export function getPostsByCategory(category: string) {
-  const allPosts = getAllPosts();
-
-  // 카테고리 필터링
-  return allPosts.filter((post) => post.category === category);
+    .sort((a, b) => (a.date > b.date ? -1 : 1));
 }
