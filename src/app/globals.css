@@ -10,33 +10,24 @@
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
+.dark {
+  --color-primary: var(--color-orange-400);
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
 * {
   overflow-wrap: anywhere;
+  word-break: keep-all;
   font-family: var(--font-family-sans);
-}
-
-body {
-  background-color: var(--color-white);
-  color: var(--color-stone-900);
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-html.dark body {
-  background-color: var(--color-stone-950);
-  color: var(--color-stone-100);
-}
-
-html.dark h1,
-html.dark h2,
-html.dark h3,
-html.dark h4 {
-  color: var(--color-stone-100);
 }
 
 /* scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--color-orange-500) var(--color-stone-800);
+  scrollbar-color: var(--color-primary) var(--color-stone-800);
 }
 
 ::-webkit-scrollbar {
@@ -49,12 +40,13 @@ html.dark h4 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-orange-500);
+  background: var(--color-primary);
   opacity: 0.8;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-orange-400);
+  background: var(--color-primary);
+  opacity: 1;
 }
 
 /* hero letter animation */

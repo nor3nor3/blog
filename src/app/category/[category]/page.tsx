@@ -12,7 +12,7 @@ export default async function CategoryPage({ params }: Params) {
     <main className="min-h-screen py-16 px-8 md:px-12 max-w-6xl mx-auto">
       <Link
         href="/category"
-        className="text-xs font-semibold uppercase tracking-widest text-stone-400 hover:text-orange-500 transition-colors"
+        className="text-xs font-semibold uppercase tracking-widest text-stone-400 hover:text-primary transition-colors"
       >
         ← Categories
       </Link>

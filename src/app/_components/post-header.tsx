@@ -9,11 +9,17 @@ type Props = {
   coverImage: string;
   date: string;
   author: Author;
+  category?: string;
 };
 
-export function PostHeader({ title, coverImage, date, author }: Props) {
+export function PostHeader({ title, coverImage, date, author, category }: Props) {
   return (
     <header className="mb-12">
+      {category && (
+        <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">
+          {category}
+        </p>
+      )}
       <PostTitle>{title}</PostTitle>
       <div className="flex items-center gap-3 text-sm text-stone-500 dark:text-stone-400 mb-8 pb-8 border-b border-stone-200 dark:border-stone-800">
         <Avatar name={author.name} picture={author.picture} />
