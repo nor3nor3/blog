@@ -48,7 +48,7 @@ export function HeroPost({ title, coverImage, slug, category }: Props) {
           fill
         />
         <div className="absolute inset-0 bg-white/25 dark:bg-black/45" />
-        <h3 className="font-black leading-[0.92] text-stone-900 dark:text-stone-100 absolute top-28 left-8 md:left-20 text-5xl md:text-7xl lg:text-9xl tracking-tight">
+        <h3 className="font-black leading-[0.92] text-stone-900 dark:text-stone-100 absolute top-28 left-4 sm:left-8 md:left-20 text-5xl md:text-7xl lg:text-9xl tracking-tight">
           {lines.map((lineWords, lineIdx) => (
             <span key={lineIdx} style={{ display: "block" }}>
               {lineWords.map(({ chars, isLastInLine }, wordIdx) => (
@@ -69,7 +69,7 @@ export function HeroPost({ title, coverImage, slug, category }: Props) {
           ))}
         </h3>
         {category && (
-          <p className="absolute bottom-8 md:bottom-20 left-8 md:left-20 text-sm md:text-lg lg:text-2xl font-normal uppercase tracking-widest text-primary">
+          <p className="absolute bottom-8 md:bottom-20 left-4 sm:left-8 md:left-20 text-sm md:text-lg lg:text-2xl font-normal uppercase tracking-widest text-primary">
             {category}
           </p>
         )}

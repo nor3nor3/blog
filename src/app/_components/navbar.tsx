@@ -132,7 +132,7 @@ export function Navbar() {
                   key={href}
                   href={href}
                   onClick={close}
-                  className="font-black leading-[0.92] uppercase tracking-tight text-5xl md:text-7xl lg:text-9xl text-stone-900 dark:text-stone-100 hover:text-primary transition-colors"
+                  className="font-black leading-[0.92] uppercase tracking-tight text-4xl sm:text-5xl md:text-7xl lg:text-9xl text-stone-900 dark:text-stone-100 hover:text-primary transition-colors"
                 >
                   <AnimatedChars label={label} startDelay={linkDelays[i]} />
                 </Link>
