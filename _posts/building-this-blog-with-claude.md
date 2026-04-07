@@ -1,5 +1,5 @@
 ---
-title: "Claude와 함께 블로그를 만든 하루"
+title: "Claude와 블로그 만들기"
 excerpt: "Next.js 16, Tailwind CSS v4, React 19로 블로그를 처음부터 다시 설계한 과정. 패키지 업데이트부터 Bauhaus 미니멀리즘 디자인, 다크모드, 히어로 애니메이션, Giscus 댓글까지."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 date: "2026-04-02T00:00:00.000Z"
