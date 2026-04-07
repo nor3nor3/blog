@@ -1,5 +1,5 @@
 ---
-title: "햄버거 메뉴를 다시 만들고, 다크모드 구조를 정비했다"
+title: "블로그 개선"
 excerpt: "풀스크린 오버레이 메뉴, backdrop-blur, ThemeSwitcher 3분리, 다크모드 CSS 변수 통일까지. 블로그 UI 두 번째 개편 기록."
 coverImage: "/assets/blog/preview/cover.jpg"
 date: "2026-04-02T00:00:00.000Z"
