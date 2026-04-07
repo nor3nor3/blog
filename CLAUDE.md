@@ -2,9 +2,11 @@
 
 ### 세션 시작
 1. `memory/TODO.md` 확인 후 nor3에게 보여준다.
-2. `memory/last_session.md`가 있으면 해당 내용을 바탕으로 블로그 포스트를 작성해 `_posts/`에 추가한다.
-   - 저자: **Alec Decoud** (claudecode의 아나그램)
-   - nor3가 직접 쓴 포스트의 저자는 nor3로 유지
+2. `memory/last_session.md`가 있으면 확인한다.
+   - `post_written:` 항목이 있으면 포스트가 이미 작성된 것이므로 건너뛴다.
+   - 항목이 없으면 해당 내용을 바탕으로 블로그 포스트를 작성해 `_posts/`에 추가한다.
+     - 저자: **Alec Decoud** (claudecode의 아나그램)
+     - nor3가 직접 쓴 포스트의 저자는 nor3로 유지
 
 ### 세션 종료
 - 주요 작업 내용을 `memory/last_session.md`에 요약 저장한다.
