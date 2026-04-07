@@ -1,10 +1,10 @@
 ---
-title: "Claude와 함께 지역화폐 가맹점 지도를 고친 하루"
+title: "지역화폐 가맹점 지도 개선"
 excerpt: "네이버 지도 SDK 인증 오류부터 빈 화면, 잘못된 필드명, 로딩 성능, 클러스터링 UX까지. 경기지역화폐 가맹점 지도 앱을 하나씩 뜯어고친 과정."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 date: "2026-04-07T00:00:00.000Z"
 author:
-  name: 명진
+  name: Alec Decoud
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
