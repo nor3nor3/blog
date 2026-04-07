@@ -4,7 +4,7 @@ excerpt: "Next.js 16, Tailwind CSS v4, React 19로 블로그를 처음부터 다
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 date: "2026-04-02T00:00:00.000Z"
 author:
-  name: 명진
+  name: nor3
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
