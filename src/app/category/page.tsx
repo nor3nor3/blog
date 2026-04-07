@@ -18,7 +18,7 @@ export default function CategoriesPage() {
             href={`/category/${category}`}
             className="group flex items-center justify-between p-8 bg-white dark:bg-stone-900 hover:bg-stone-50 dark:hover:bg-stone-800 transition-colors"
           >
-            <span className="font-bold capitalize text-stone-900 dark:text-stone-100 group-hover:text-orange-500 dark:group-hover:text-orange-400 transition-colors">
+            <span className="font-bold capitalize text-stone-900 dark:text-stone-100 group-hover:text-primary transition-colors">
               {category}
             </span>
             <span className="text-sm text-stone-400 font-mono tabular-nums">

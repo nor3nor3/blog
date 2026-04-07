@@ -1,7 +1,8 @@
-@reference "tailwindcss";
+@reference "../globals.css";
 
 .markdown {
-  @apply text-base md:text-lg leading-relaxed text-stone-700 dark:text-stone-300;
+  @apply text-base md:text-lg leading-relaxed;
+  color: var(--md-text);
 }
 
 .markdown p,
@@ -12,31 +13,40 @@
 }
 
 .markdown h2 {
-  @apply text-2xl md:text-3xl font-bold mt-16 mb-4 leading-snug text-stone-900 dark:text-stone-100 tracking-tight;
+  @apply text-2xl md:text-3xl font-bold mt-16 mb-4 leading-snug tracking-tight;
+  color: var(--md-heading);
 }
 
 .markdown h3 {
-  @apply text-xl md:text-2xl font-bold mt-10 mb-4 leading-snug text-stone-900 dark:text-stone-100 tracking-tight;
+  @apply text-xl md:text-2xl font-bold mt-10 mb-4 leading-snug tracking-tight;
+  color: var(--md-heading);
 }
 
 .markdown a {
-  @apply text-orange-500 hover:text-orange-600 underline underline-offset-2;
+  @apply text-primary hover:text-primary/80 underline underline-offset-2;
 }
 
 .markdown blockquote {
-  @apply border-l-4 border-orange-500 pl-6 italic text-stone-500 dark:text-stone-400;
+  @apply border-l-4 border-primary pl-6 italic;
+  color: var(--md-muted);
 }
 
 .markdown code {
-  @apply bg-stone-100 dark:bg-stone-800 text-stone-800 dark:text-stone-200 px-1.5 py-0.5 text-sm font-mono rounded;
+  @apply px-1.5 py-0.5 text-sm font-mono rounded;
+  background-color: var(--md-code-bg);
+  color: var(--md-code-text);
 }
 
 .markdown pre {
-  @apply bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 overflow-x-auto my-8 text-sm rounded;
+  @apply p-6 overflow-x-auto my-8 text-sm rounded;
+  background-color: var(--md-pre-bg);
+  color: var(--color-stone-100);
 }
 
 .markdown pre code {
   @apply bg-transparent p-0;
+  background-color: transparent;
+  color: inherit;
 }
 
 .markdown ul {
@@ -52,7 +62,8 @@
 }
 
 .markdown hr {
-  @apply border-stone-200 dark:border-stone-800 my-12;
+  @apply my-12;
+  border-color: var(--md-border);
 }
 
 .markdown img {
@@ -60,5 +71,6 @@
 }
 
 .markdown strong {
-  @apply font-bold text-stone-900 dark:text-stone-100;
+  @apply font-bold;
+  color: var(--md-heading);
 }

@@ -8,13 +8,13 @@ export function Footer() {
         <div className="flex items-center gap-6">
           <a
             href="/feed.xml"
-            className="text-xs font-semibold uppercase tracking-widest text-stone-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
+            className="text-xs font-semibold uppercase tracking-widest text-stone-400 hover:text-primary transition-colors"
           >
             RSS Feed
           </a>
           <a
             href="/sitemap.xml"
-            className="text-xs font-semibold uppercase tracking-widest text-stone-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
+            className="text-xs font-semibold uppercase tracking-widest text-stone-400 hover:text-primary transition-colors"
           >
             Sitemap
           </a>
