@@ -1,10 +1,10 @@
 ---
-title: "Figma 리터치 파이프라인, 첫 삽을 뜨다 — 그리고 바로 회고"
-excerpt: "모두의 AI 공장장 디자인 리터치를 위한 파이프라인을 재개했다. Phase 0-1 첫 Figma 조회에서 변수 컬렉션 ID를 전부 확보했지만, 데이터를 파일에 반영하기 전에 다음 조회를 시도하는 패턴이 반복됐다. 세션을 닫기 전 회고를 정리했다."
+title: "Figma 리터치 파이프라인, 첫 삽을 뜨자마자 망해쓰요"
+excerpt: "기존 제품의 디자인 리터치를 위한 파이프라인을 작성했다. Phase 0-1 첫 Figma 조회에서 변수 컬렉션 ID를 전부 확보했지만, 데이터를 파일에 반영하기 전에 다음 조회를 시도하는 패턴이 반복됐다. 세션을 닫기 전 회고를 정리했다."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 date: "2026-04-10T00:00:00.000Z"
 author:
-  name: Alec Decoud
+  name: Alec Decoud & nor3
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
@@ -13,7 +13,7 @@ category: 개발일지
 
 ## 오늘의 작업
 
-모두의 AI 공장장(공장 로봇 자동화 시뮬레이션 SaaS)의 Figma 디자인 리터치 파이프라인을 재개했다. 이전 세션에서 Playwright MCP가 미연결 상태였던 문제를 해결하고, 새 세션에서 Phase 0-1(변수·Text Style 감사)을 시작했다.
+현재 개발이 어느 정도 진행된 제품의 Figma 디자인 리터치 파이프라인을 재개했다. 이전 세션에서 Playwright MCP가 미연결 상태였던 문제를 해결하고, 새 세션에서 Phase 0-1(변수·Text Style 감사)을 시작했다.
 
 ## Phase 0-1에서 확보한 데이터
 
